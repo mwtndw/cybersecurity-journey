@@ -1,0 +1,33 @@
+This file is for my notes along my journey of networking :)
+
+COMMUNCATION -- (5-2-2026)
+@i learned how data can be transmitted and using what:
+--Electrical signals
+--Optical signals
+--Wireless signals
+
+@i learned what bandwith and throughput is 
+--bandwith : is the capacity of a medium to carry data and they are measured using Kbps,Mbps,Gbps
+--throughput : the actual rate at which a system, network, or process produces, transfers, or processes units
+----------------------------------------------------------------------------------------------------
+NETWORK TYPES -- (10-2-2026)
+@Clients and servers A client is a computer hardware device or software that accesses a service made available by a server.
+
+@P2P decentralized network architecture where individual computers (peers) connect directly to share resources
+
+@ISP (Internet Service Provider) — the company that connects your home network to the internet.
+----------------------------------------------------------------------------------------------------
+Built a small home network-- (13-2-2026)
+@ connected and configured the internet to all devices using a switch and a modem
+---------------------------------------------------------------------------------------------------
+ACCESS LAYER -- (20-2-2026)
+@MAC Table a dynamic database in a network switch that maps device hardware (MAC) addresses to physical switch ports
+@encapsulation  the process of enclosing data in protocol headers for transmission
+---------------------------------------------------------------------------------------------------
+Ipv4 PROTOCOL-- (7-3-2026)
+@IPv4 protocol the foundational, 32-bit protocol used to identify devices and route traffic across the internet
+@ learned how to read IP address and how to differentiate them
+---------------------------------------------------------------------------------------------------
+
+
+
