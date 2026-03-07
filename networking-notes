@@ -1,5 +1,5 @@
 This file is for my notes along my journey of networking :)
-
+--------------------------------------------------------------------------------------------------
 COMMUNCATION -- (5-2-2026)
 @i learned how data can be transmitted and using what:
 --Electrical signals
@@ -21,13 +21,26 @@ Built a small home network-- (13-2-2026)
 @ connected and configured the internet to all devices using a switch and a modem
 ---------------------------------------------------------------------------------------------------
 ACCESS LAYER -- (20-2-2026)
-@MAC Table a dynamic database in a network switch that maps device hardware (MAC) addresses to physical switch ports
-@encapsulation  the process of enclosing data in protocol headers for transmission
+@MAC Table — dynamic database mapping MAC to switch ports
+>> Security note: MAC spoofing attacks forge this to 
+   redirect traffic. Relevant to ARP poisoning attacks.
+
+@encapsulation — enclosing data in protocol headers
+>> Security note: attackers can hide malicious payloads 
+   inside legitimate protocol headers (tunneling attacks)
 ---------------------------------------------------------------------------------------------------
-Ipv4 PROTOCOL-- (7-3-2026)
+Ipv4 PROTOCOL -- (7-3-2026)
 @IPv4 protocol the foundational, 32-bit protocol used to identify devices and route traffic across the internet
 @ learned how to read IP address and how to differentiate them
 ---------------------------------------------------------------------------------------------------
-
+Ipv4 UNIcast -- (7-3-2026)
+@unicast is when the packet is sent from the host to the destination and the destination only.
+@broadcast transmittion refers to a device sending a message to all the devices on a network in one-to-all communications.
+@multicast is when the packet is sent from the host to a selected group of devices on a network
+--------------------------------------------------------------------------------------------------
+Public and private Ipv4 -- (7-3-2026)
+@Public Ipv4 are globally routed between ISP'S routers
+@Private Ipv4
+@NAT -Network Address Translation is used to translate from private Ipv4 to private Ipv4
 
 
