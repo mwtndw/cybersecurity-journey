@@ -44,7 +44,11 @@ Public and private Ipv4 -- (7-3-2026)
 @NAT -Network Address Translation is used to translate from private Ipv4 to private Ipv4
 ---------------------------------------------------------------------------------------------------
 Subnetting -- (7-3-2026)
-@Subnetting reduces overall network traffic and improves network performance
->> Security note:
-
+@Subnetting - reduces overall network traffic and improves network performance
+>> Security note: Subnetting is used defensively to isolate 
+   network segments. In a SOC environment, separating servers, 
+   workstations, and guest devices into different subnets limits 
+   how far an attacker can move laterally if they breach one 
+   segment.
+----------------------------------------------------------------------------------------------------
 
