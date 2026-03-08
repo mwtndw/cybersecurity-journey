@@ -42,5 +42,9 @@ Public and private Ipv4 -- (7-3-2026)
 @Public Ipv4 are globally routed between ISP'S routers
 @Private Ipv4
 @NAT -Network Address Translation is used to translate from private Ipv4 to private Ipv4
+---------------------------------------------------------------------------------------------------
+Subnetting -- (7-3-2026)
+@Subnetting reduces overall network traffic and improves network performance
+>> Security note:
 
 
